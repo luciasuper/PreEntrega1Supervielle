@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PreEntrega1Supervielle/static/css/main.560b71dc.css",
+    "main.js": "/PreEntrega1Supervielle/static/js/main.149f9d40.js",
+    "static/js/787.f4671f37.chunk.js": "/PreEntrega1Supervielle/static/js/787.f4671f37.chunk.js",
+    "static/media/logo_sl.png": "/PreEntrega1Supervielle/static/media/logo_sl.4b49ce93b595a0f12b14.png",
+    "static/media/logo.svg": "/PreEntrega1Supervielle/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/PreEntrega1Supervielle/index.html",
+    "main.560b71dc.css.map": "/PreEntrega1Supervielle/static/css/main.560b71dc.css.map",
+    "main.149f9d40.js.map": "/PreEntrega1Supervielle/static/js/main.149f9d40.js.map",
+    "787.f4671f37.chunk.js.map": "/PreEntrega1Supervielle/static/js/787.f4671f37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.560b71dc.css",
+    "static/js/main.149f9d40.js"
+  ]
+}
