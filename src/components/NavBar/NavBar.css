@@ -1,8 +1,8 @@
 nav{
     width: 100%;
     height: auto;
-    margin-top: -700px;
     display: flex;
+    
 }
 
         nav a img{
@@ -24,11 +24,23 @@ nav ul {
     }
         nav div ul li a {
             color: #B89790;
+            font-size: 22px;
+            
         }
 
     nav div ul li a:hover {
-      cursor: pointer;
-      color: #60ab90;
-      font-weight: 600;
-      text-decoration: line-through; }
-  
+        cursor: pointer;
+        color: #60ab90;
+        font-weight: 600;
+        text-decoration: line-through; }
+
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
+}
+.UlNavBar{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}

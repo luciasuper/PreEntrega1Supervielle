@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import NavBar from "./components/NavBar"
+import NavBar from "./components/NavBar/NavBar"
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <NavBar text="HOLA" color="white"/>
-      </header>
+      <NavBar  color="rgba(250, 232, 227, 0.8)"/>
+      <div>
+      <ItemListContainer/> 
+      </div>
     </div>
   );
 }
