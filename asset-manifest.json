@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/PreEntrega1Supervielle/static/css/main.560b71dc.css",
-    "main.js": "/PreEntrega1Supervielle/static/js/main.149f9d40.js",
+    "main.css": "/PreEntrega1Supervielle/static/css/main.c4fbfbd8.css",
+    "main.js": "/PreEntrega1Supervielle/static/js/main.ca3a6d9b.js",
     "static/js/787.f4671f37.chunk.js": "/PreEntrega1Supervielle/static/js/787.f4671f37.chunk.js",
+    "static/media/manta3.png": "/PreEntrega1Supervielle/static/media/manta3.4d908f967738d135e5ad.png",
+    "static/media/manta1.png": "/PreEntrega1Supervielle/static/media/manta1.596aa343d1d150a597c0.png",
+    "static/media/manta5.png": "/PreEntrega1Supervielle/static/media/manta5.853407972a3a3fb03095.png",
+    "static/media/manta4.png": "/PreEntrega1Supervielle/static/media/manta4.bc90b401bc6aedca398d.png",
+    "static/media/manta2.png": "/PreEntrega1Supervielle/static/media/manta2.1870f57622f1d2a7fd39.png",
     "static/media/logo_sl.png": "/PreEntrega1Supervielle/static/media/logo_sl.4b49ce93b595a0f12b14.png",
-    "static/media/logo.svg": "/PreEntrega1Supervielle/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/PreEntrega1Supervielle/index.html",
-    "main.560b71dc.css.map": "/PreEntrega1Supervielle/static/css/main.560b71dc.css.map",
-    "main.149f9d40.js.map": "/PreEntrega1Supervielle/static/js/main.149f9d40.js.map",
+    "main.c4fbfbd8.css.map": "/PreEntrega1Supervielle/static/css/main.c4fbfbd8.css.map",
+    "main.ca3a6d9b.js.map": "/PreEntrega1Supervielle/static/js/main.ca3a6d9b.js.map",
     "787.f4671f37.chunk.js.map": "/PreEntrega1Supervielle/static/js/787.f4671f37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.560b71dc.css",
-    "static/js/main.149f9d40.js"
+    "static/css/main.c4fbfbd8.css",
+    "static/js/main.ca3a6d9b.js"
   ]
 }
