@@ -1,43 +1,40 @@
-import Item from "./Item"
-import manta1 from '../../assets/img/manta1.png'
-import manta2 from '../../assets/img/manta2.png'
-import manta3 from '../../assets/img/manta3.png'
-import manta4 from '../../assets/img/manta4.png'
-import manta5 from '../../assets/img/manta5.png'
-function ItemListContainer(){
-    return(
-        <div>
-            <div>
-                <h1>MANTAS</h1>
-            </div>
-            <div className="ItemListContainer">
-                <Item 
-                title="Manta AZUL" 
-                imgurl={manta1}
-                price={1000}/>
 
-                <Item 
-                title="Manta MAGENTA"
-                imgurl={manta2}
-                price={1000}/>
+import { useState, useEffect } from "react";
+import Item from "./Item";
+import "./ItemListContainer.css";
+import getItems from "../../Services/MockService";
+import { useParams } from "react-router-dom";
 
-                <Item 
-                title="Manta GREY" 
-                imgurl={manta3}
-                price={1000}/>
+function ItemListContainer() {
+  const [products, setProducts] = useState([]);
+  const { idCategory } = useParams();
 
-                <Item 
-                title="Manta BONE" 
-                imgurl={manta4}
-                price={1000}/>
-                
-                <Item 
-                title="Manta BEIGE" 
-                imgurl={manta5}
-                price={1000}/>
-            </div>
-        </div>
-    )
+  async function getItemsAsync() {
+    let respuesta = await getItems(idCategory);
+    setProducts(respuesta);
+  }
+
+  useEffect(() => {
+    getItemsAsync();
+  }, [idCategory]);
+
+  return (
+    // <div className="ItemListContainer">
+      <div className="item-list">
+        {products.map((product) => {
+          return (
+            <Item
+              id={product.id}
+              imgurl={product.imgurl}
+              title={product.title}
+              price={product.price}
+              category={product.category}
+            />
+          );
+        })}
+      </div>
+    // </div>  
+  );
 }
 
 export default ItemListContainer

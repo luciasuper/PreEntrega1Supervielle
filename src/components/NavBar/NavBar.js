@@ -2,27 +2,25 @@
 import "./NavBar.css";
 import logo from "../../assets/img/logo_sl.png"
 import CartWidget from "../NavBar/CartWidget";
-import {Logo} from './Logo'
+import {Logo} from './Logo';
+import {Link} from "react-router-dom";
+
 function NavBar(props){
     const styleNav = {backgroundColor: props.color}
     return <nav style={styleNav}>
         <div className="NavBar">
             <div >
-                <Logo />
+                <Link to="/">
+                    <Logo />
+                </Link>
             </div>
             <div className="UlNavBar">
                 <ul>
-                    <li>
-                        <a>PRODUCTOS</a>
+                    <li >
+                        <Link className="ColorHoverNav"  style={{textDecoration:'none'}} to="/category/nuevosingresos">NUEVOS INGRESOS</Link>
                     </li>
                     <li>
-                        <a>PROMOCIONES</a>
-                    </li>
-                    <li>
-                        <a>QUIENES SOMOS</a>
-                    </li>
-                    <li>
-                        <a>CONTACTO</a>
+                        <Link className="ColorHoverNav" style={{textDecoration:'none'}} to="/category/promociones" >PROMOCIONES</Link>
                     </li>
                 </ul>
                 <CartWidget />

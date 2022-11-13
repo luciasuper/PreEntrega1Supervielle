@@ -9,7 +9,7 @@ nav{
             border-radius:50% ; 
         }
             nav a img:hover{
-                transform: scale(1.2);
+                transform: scale(1.1);
                 cursor: pointer;
                 transition: 0.5s;
     }
@@ -21,18 +21,16 @@ nav ul {
         list-style: none;
         display: inline-block;
         margin:0 8px;
+        
     }
-        nav div ul li a {
+        nav div ul li Link {
             color: #B89790;
             font-size: 22px;
-            
+            text-decoration: none;
         }
 
-    nav div ul li a:hover {
-        cursor: pointer;
-        color: #60ab90;
-        font-weight: 600;
-        text-decoration: line-through; }
+    nav div ul li Link:hover {
+         }
 
 .NavBar{
     display: flex;
@@ -43,4 +41,11 @@ nav ul {
     padding: 60px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+}
+.ColorHoverNav:hover{
+    cursor: pointer;
+    color: #60ab90;
+    font-weight: 600;
+    text-decoration: line-through;
 }
