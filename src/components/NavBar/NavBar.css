@@ -23,15 +23,17 @@ nav ul {
         margin:0 8px;
         
     }
-        nav div ul li Link {
+        nav div ul li a {
             color: #B89790;
             font-size: 22px;
             text-decoration: none;
+            
         }
-
-    nav div ul li Link:hover {
-         }
-
+        nav div ul li a:hover{
+            cursor: pointer;
+            color: #60ab90;
+            font-weight: 600;
+}
 .NavBar{
     display: flex;
     justify-content: space-between;
@@ -45,7 +47,5 @@ nav ul {
 }
 .ColorHoverNav:hover{
     cursor: pointer;
-    color: #60ab90;
-    font-weight: 600;
     text-decoration: line-through;
 }

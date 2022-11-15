@@ -16,11 +16,11 @@ function NavBar(props){
             </div>
             <div className="UlNavBar">
                 <ul>
-                    <li >
-                        <Link className="ColorHoverNav"  style={{textDecoration:'none'}} to="/category/nuevosingresos">NUEVOS INGRESOS</Link>
+                    <li className="ColorHoverNav">
+                        <Link   style={{textDecoration:'none'}} to="/category/nuevosingresos">NUEVOS INGRESOS</Link>
                     </li>
-                    <li>
-                        <Link className="ColorHoverNav" style={{textDecoration:'none'}} to="/category/promociones" >PROMOCIONES</Link>
+                    <li className="ColorHoverNav">
+                        <Link  style={{textDecoration:'none'}} to="/category/promociones" >PROMOCIONES</Link>
                     </li>
                 </ul>
                 <CartWidget />

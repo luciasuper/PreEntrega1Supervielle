@@ -8,7 +8,7 @@ const products = [
     {
       id: 1,
       title: "Manta AZUL",
-      price: 1000,
+      price: 5000,
       stock: 20,
       category: "promociones",
       imgurl: manta1,
@@ -17,7 +17,7 @@ const products = [
     {
         id: 2,
         title: "Manta MAGENTA",
-        price: 1000,
+        price: 5000,
         stock: 20,
         category: "promociones",
         imgurl: manta2,
@@ -26,16 +26,16 @@ const products = [
       {
         id: 3,
         title: "Manta GREY",
-        price: 2000,
+        price: 7000,
         stock: 20,
-        category: "promociones",
+        category: "nuevosingresos",
         imgurl: manta3,
         description: "Manta gris - 100cm x 120cm",
     },
     {
         id: 4,
         title: "Manta BONE",
-        price: 2000,
+        price: 7000,
         stock: 20,
         category: "nuevosingresos",
         imgurl: manta4,
@@ -44,7 +44,7 @@ const products = [
     {
         id: 5,
         title: "Manta BEIGE",
-        price: 2000,
+        price: 7000,
         stock: 20,
         category: "nuevosingresos",
         imgurl: manta5,

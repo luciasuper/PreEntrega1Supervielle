@@ -19,7 +19,6 @@ function ItemListContainer() {
   }, [idCategory]);
 
   return (
-    // <div className="ItemListContainer">
       <div className="item-list">
         {products.map((product) => {
           return (
@@ -32,8 +31,7 @@ function ItemListContainer() {
             />
           );
         })}
-      </div>
-    // </div>  
+      </div> 
   );
 }
 
