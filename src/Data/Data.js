@@ -1,4 +1,4 @@
-import manta1 from '../assets/img/manta1.png';
+import manta1 from '../assets/img/manta1.webp';
 import manta2 from '../assets/img/manta2.png';
 import manta3 from '../assets/img/manta3.png';
 import manta4 from '../assets/img/manta4.png';
@@ -39,7 +39,7 @@ const products = [
         stock: 20,
         category: "nuevosingresos",
         imgurl: manta4,
-        description: "Manta huevo - 100cm x 120cm",
+        description: "Manta hueso - 100cm x 120cm",
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ const products = [
         price: 7000,
         stock: 20,
         category: "nuevosingresos",
-        imgurl: manta5,
+        imgurl: "/imgs/manta1.wepb",
         description: "Manta beige - 100cm x 120cm",
     },
 ]

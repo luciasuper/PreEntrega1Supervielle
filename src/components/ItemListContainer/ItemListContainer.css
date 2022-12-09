@@ -32,14 +32,6 @@
     color: #8c8c8e;
 }
   
-.priceTag{
-    color: #444444;
-    font-weight: bold;
-  }
-  
-  .offerTag{
-    color: #21b276
-  }
   .item-list{
     display: flex;
     justify-content: center;

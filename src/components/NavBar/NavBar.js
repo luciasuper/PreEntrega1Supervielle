@@ -10,7 +10,7 @@ function NavBar(props){
     return <nav style={styleNav}>
         <div className="NavBar">
             <div >
-                <Link to="/">
+                <Link to="/PreEntrega1Supervielle">
                     <Logo />
                 </Link>
             </div>
